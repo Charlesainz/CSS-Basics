@@ -1,0 +1,23 @@
+/* External CSS */
+button {
+    color: white;
+    background-color: green;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Parent and Child Styling */
+div.parent {
+    color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.parent > p {
+    font-size: 18px;
+    color: darkred;
+}
